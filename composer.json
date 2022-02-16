@@ -1,0 +1,28 @@
+{
+    "name": "y520/wp",
+    "autoload": {
+        "psr-4": {
+            "Y520\\Wp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Domokos David",
+            "email": "domokosdavid4@gmail.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.9"
+    },
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ]
+    
+}
